@@ -3,6 +3,7 @@ title: The Ruins of Exactitude
 date: 2026-01-08
 excerpt: A traveler visits abandoned AI server farms across America—infrastructure that once promised to guide humanity, now inhabited by squatters, wildlife, and decay.
 image: /assets/images/the_ruins_of_exactitude.jpg
+tags: [AI, technology, dystopia, Borges]
 ---
 
 ![The Ruins of Exactitude]({{ page.image | relative_url }})
