@@ -17,6 +17,7 @@ Short stories by Julio exploring time, memory, technology, and the human conditi
    date: 2026-01-08
    excerpt: Brief description
    image: /assets/images/story_name.jpg
+   tags: [AI, technology, dystopia]
    ---
    
    ![Story Title]({{ page.image | relative_url }})
