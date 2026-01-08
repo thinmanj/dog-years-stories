@@ -6,7 +6,7 @@ Short stories by Julio.
 
 ## Published Stories
 
-- [The Ruins of Exactitude](https://thinmanj.github.io/dog-years-stories/stories/the-ruins-of-exactitude/) - A traveler visits abandoned AI infrastructure
+- [The Ruins of Exactitude](https://thinmanj.github.io/dog-years-stories/stories/the_ruins_of_exactitude/) - A traveler visits abandoned AI infrastructure
 
 ## Adding Stories
 
