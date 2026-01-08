@@ -5,7 +5,7 @@ email: thinmanj@gmail.com
 baseurl: /dog-years-stories
 url: https://thinmanj.github.io
 
-theme: minima
+remote_theme: chesterhow/tale
 markdown: kramdown
 
 collections:
