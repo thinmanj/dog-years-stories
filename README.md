@@ -2,11 +2,11 @@
 
 Short stories by Julio.
 
-**Live site:** https://thinmanj.github.io/dog-years-site/
+**Live site:** https://thinmanj.github.io/dog-years-stories/
 
 ## Published Stories
 
-- [The Ruins of Exactitude](https://thinmanj.github.io/dog-years-site/stories/the-ruins-of-exactitude/) - A traveler visits abandoned AI infrastructure
+- [The Ruins of Exactitude](https://thinmanj.github.io/dog-years-stories/stories/the-ruins-of-exactitude/) - A traveler visits abandoned AI infrastructure
 
 ## Adding Stories
 
