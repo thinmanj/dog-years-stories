@@ -12,12 +12,12 @@ title: Dog Years
 ## Stories
 
 {% for story in site.stories %}
-### [{{ story.title }}]({{ story.url }})
+### [{{ story.title }}]({{ story.url | relative_url }})
 *{{ story.date | date: "%B %d, %Y" }}*
 
 {{ story.excerpt }}
 
-[Read more →]({{ story.url }})
+[Read more →]({{ story.url | relative_url }})
 
 ---
 {% endfor %}
