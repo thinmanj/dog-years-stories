@@ -1,0 +1,19 @@
+title: Dog Years
+description: Short stories by Julio
+author: Julio
+email: thinmanj@gmail.com
+
+theme: minima
+markdown: kramdown
+
+collections:
+  stories:
+    output: true
+    permalink: /stories/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "stories"
+    values:
+      layout: "post"
