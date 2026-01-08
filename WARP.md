@@ -12,7 +12,7 @@ This is a Jekyll-based static site hosting short stories by Julio. The site uses
 
 ## Architecture
 
-**Static Site Generator**: Jekyll with Minima theme
+**Static Site Generator**: Jekyll with tale theme (remote_theme: chesterhow/tale)
 **Content Model**: Stories are stored as markdown files in `_stories/` collection
 **Deployment**: GitHub Pages (automatic on push to main branch)
 **Repository**: thinmanj/dog-years-stories
@@ -20,8 +20,11 @@ This is a Jekyll-based static site hosting short stories by Julio. The site uses
 ### Directory Structure
 
 - `_stories/` - Story content files (markdown with YAML front matter)
-- `_config.yml` - Jekyll configuration, defines stories collection
+- `_config.yml` - Jekyll configuration, defines stories collection and baseurl
 - `index.md` - Homepage with Liquid template to list all stories
+- `about.md` - About page with site description
+- `tags.md` - Tags page listing stories by tag
+- `assets/images/` - Hero images for stories
 
 ### Stories Collection
 
@@ -29,6 +32,8 @@ Stories are Jekyll collection items with custom permalink structure `/stories/:t
 - `title` - Story title
 - `date` - Publication date (YYYY-MM-DD)
 - `excerpt` - Brief description for listing page
+- `image` - Path to hero image (optional, e.g., `/assets/images/story_name.jpg`)
+- `tags` - Array of tags (optional, e.g., `[AI, technology, dystopia]`)
 - `layout` - Auto-assigned as "post" via defaults
 
 ## Development Workflow
@@ -41,13 +46,24 @@ Stories are Jekyll collection items with custom permalink structure `/stories/:t
 title: Story Title
 date: YYYY-MM-DD
 excerpt: Brief description for the index page
+image: /assets/images/story_name.jpg
+tags: [AI, technology, dystopia]
 ---
+
+![Story Title]({{ page.image | relative_url }})
+
+# Story Title
 
 Story content here...
 ```
 
-2. Story filename should be lowercase with underscores (e.g., `story_name.md`)
-3. Commit and push - GitHub Pages automatically rebuilds and deploys
+2. Generate a hero image:
+   - Use AI tools (Bing Image Creator, Leonardo.ai, Midjourney)
+   - Save as `assets/images/story_name.jpg` (matching story filename)
+   - Aim for atmospheric, cinematic style (1200px wide recommended)
+
+3. Story filename should be lowercase with underscores (e.g., `story_name.md`)
+4. Commit and push - GitHub Pages automatically rebuilds and deploys
 
 ### Testing Locally
 
