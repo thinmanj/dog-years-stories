@@ -2,6 +2,8 @@ title: Dog Years
 description: Short stories by Julio
 author: Julio
 email: thinmanj@gmail.com
+baseurl: /dog-years-stories
+url: https://thinmanj.github.io
 
 theme: minima
 markdown: kramdown
